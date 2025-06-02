@@ -1,0 +1,37 @@
+[project]
+name = "diploma"
+version = "0.1.0"
+description = "diploma"
+authors = [
+    {name = "kygrachev", email = "m2106756@edu.misis.ru"},
+]
+dependencies = [
+    "transformers>=4.50.3", 
+    "datasets>=3.5.0", 
+    "accelerate>=1.5.2", 
+    "peft>=0.15.1", 
+    "bitsandbytes>=0.45.4", 
+    "trl>=0.16.0", 
+    "ipykernel>=6.29.5", 
+    "python-dotenv>=1.1.0", 
+    "protobuf>=6.30.2", 
+    "sentencepiece>=0.2.0", 
+    "matplotlib>=3.10.1", 
+    "streamlit>=1.45.0", 
+    "statsmodels>=0.14.4", 
+    "scipy>=1.15.3", 
+    "seaborn>=0.13.2", 
+    "scikit-posthocs>=0.11.4", 
+    "openpyxl>=3.1.5",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
